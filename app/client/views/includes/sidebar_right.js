@@ -1,8 +1,8 @@
 Template.sidebarRight.rendered = function() {
-  $('.ui.sidebar').first()
-  .sidebar('attach events', '.toggle.button')
+  $('.ui.right.sidebar').first()
+  .sidebar('attach events', '.right.toggle.button')
 ;
-  $('.toggle.button')
+  $('.right.toggle.button')
     .removeClass('disabled')
   ;
 }

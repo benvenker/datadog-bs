@@ -2,21 +2,23 @@
   <title>Datadog Health</title>
 </head>
 <body>
+  {{> sidebarLeft}}
   {{> topNav}}
   <main class="ui one column stackable grid">
     <section class="column">
-      <section class="row">
-        <div class="left floated tiny ui toggle button">
-          <i class="angle right icon"></i>
+      <div class="row">
+        <div class="ui left toggle button floated tiny">
+          <i class="reorder icon"></i>
         </div>
-        <div class="right floated tiny ui toggle button">
-          <i class="angle left icon"></i>
+        <div class="ui right toggle button floated tiny ">
+          <i class="reorder icon"></i>
         </div>
-      </section>
-      <div class="ui horizontal icon divider">
-        <i class="circular inverted heart icon"></i>
       </div>
+
       {{> accordion}}
+      <div class="row">
+
+      </div>
     </section>
   </main>
   {{> sidebarRight}}
