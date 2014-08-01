@@ -1,15 +1,23 @@
 <head>
-  <title>Microscope</title>
+  <title>Datadog Health</title>
 </head>
 <body>
-  <div class="container">
-    <header class="navbar">
-      <div class="navbar-inner">
-        <a class="brand" href="/">DataDog Health</a>
+  {{> topNav}}
+  <main class="ui one column stackable grid">
+    <section class="column">
+      <section class="row">
+        <div class="left floated tiny ui toggle button">
+          <i class="angle right icon"></i>
+        </div>
+        <div class="right floated tiny ui toggle button">
+          <i class="angle left icon"></i>
+        </div>
+      </section>
+      <div class="ui horizontal icon divider">
+        <i class="circular inverted heart icon"></i>
       </div>
-    </header>
-    <div id="main" class="row-fluid">
-      {{> thingsList}}
-    </div>
-  </div>
+      {{> accordion}}
+    </section>
+  </main>
+  {{> sidebarRight}}
 </body>
