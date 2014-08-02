@@ -1,3 +1,4 @@
 Template.accordion.rendered = function() {
-  $('.ui.accordion').accordion();
+  $('.ui.event.accordion').accordion();
+  $('ui.manual.entry.accordion').accordian();
 }
